@@ -161,9 +161,9 @@ function aiMark(arr) {
 function newGame(n) { // alert with alert codes and reset
     if(n !== 2) streakFill(streakCode);
     setTimeout(()=>{
-        if(n === 0) alert('You win, wtf...')
-        if(n === 1) alert("You'll never win...")
-        if(n === 2) alert("It's a tie, nice try...")
+        if(n === 0) alert('You win!')
+        if(n === 1) alert("Try again!..")
+        if(n === 2) alert("It's a tie!")
         playerMarks = [];
         aiMarks = [];
         streakCode = null;
